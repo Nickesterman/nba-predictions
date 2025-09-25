@@ -30,6 +30,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Fetch schedule (idempotent)
+        run: |
+          python fetch_schedule.py --start 2025-10-21 --end 2026-04-15
+
       - name: Run training script
         run: |
           python train_model.py
