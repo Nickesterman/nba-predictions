@@ -1,0 +1,65 @@
+# Core Data Science Libraries
+pandas==2.1.4
+numpy==1.24.3
+scipy==1.11.4
+
+# Machine Learning
+scikit-learn==1.3.2
+xgboost==2.0.3
+tensorflow==2.15.0
+joblib==1.3.2
+
+# NBA Data API
+nba_api==1.4.1
+
+# Web Scraping & APIs
+requests==2.31.0
+beautifulsoup4==4.12.2
+lxml==4.9.4
+
+# Data Visualization
+matplotlib==3.8.2
+seaborn==0.13.0
+plotly==5.18.0
+
+# Dashboard
+streamlit==1.29.0
+streamlit-option-menu==0.3.6
+
+# Database
+sqlalchemy==2.0.23
+# (sqlite3 ships with Python; no external package required)
+
+# Utilities
+python-dateutil==2.8.2
+pytz==2023.3
+tqdm==4.66.1
+python-dotenv==1.0.0
+
+# Statistical Analysis
+statsmodels==0.14.1
+
+# Optional: For advanced features
+# lightgbm==4.1.0
+# catboost==1.2.2
+
+# Testing (optional)
+pytest==7.4.3
+pytest-cov==4.1.0
+
+# Logging
+loguru==0.7.2
+
+# Configuration
+pyyaml==6.0.1
+configparser==6.0.0
+
+# Rate limiting for API calls
+ratelimit==2.2.1
+
+# Caching
+diskcache==5.6.3
+
+# Scheduling
+schedule==1.2.0
+apscheduler==3.10.4
